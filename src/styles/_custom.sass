@@ -37,12 +37,27 @@
 .banner-interno__fondo
   background-image: url("../assets/curso/portada/img1.png") !important
 
+.tarjeta.color-primario
+  background-color: #DEBEFB
+  transition: all 0.5s ease-out
+  p,b
+    color: $color-sistema-texto
+.tarjeta.color-primario:hover
+  background-color: #3A1D71
+  b
+    color: #F0C518
+  p
+    color: white
+
+pre
+  p
+    color: #fff !important
+
 .bg
   &-c1
     background-image: url(../assets/curso/intro/img3.png)
     background-repeat: no-repeat
     margin-inline: -3.2rem !important
-    background-repeat: no-repeat
     background-size: cover
     margin-bottom: -48px
   &-c2
@@ -71,3 +86,79 @@
     background-color: #3A1D71
     b
       color: #F0C518
+  &-c9
+    background-color: #7737ef
+    background-image: linear-gradient(180deg, #7737ef 0%, #291156 100%)
+    border-radius: 15px
+  &-c10
+    background-image: url(../assets/curso/tema2/img2.svg)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-position-y: 30px
+  &-c11
+    background-color: #DEBEFB
+    border-radius: 15px
+  &-c12
+    background-color: #3A1D71
+    border-top-left-radius: 15px
+    border-top-right-radius: 15px
+  &-c13
+    background-color: #00FFDF
+    border-bottom-left-radius: 15px
+    border-bottom-right-radius: 15px
+    height: 140px
+    @media screen and ( max-width: $bp-max-lg )
+      height: 110px
+  &-c14
+    background-image: url(../assets/curso/tema2/img6.svg)
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and ( max-width: $bp-max-lg )
+      background-size: cover
+      border-radius: 35px
+  &-c15
+    background-image: url(../assets/curso/tema3/img1.png)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+  &-c16
+    background-image: url(../assets/curso/tema4/img2.png)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-position: bottom
+  &-c17
+    background-color: #ffffff
+    border: 3px solid #AEC4FA
+    border-radius: 15px
+    transition: all 0.5s ease-out
+  &-c17:hover
+    background-color: #3A1D71
+    border: 3px solid #A854F3
+    p
+      color: #ffffff
+  &-c18
+    background-color: #ECF2FF
+    border-radius: 15px
+  &-c19
+    background-image: url(../assets/curso/tema4/img4.png)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-position: center
+  &-c20
+    background-color: #3A1D71
+    border-top-left-radius: 15px
+    border-top-right-radius: 15px
+  &-c21
+    background-color: #110628
+  &-c22
+    background-color: #D6E1FD
+    border-radius: 15px
+  &-c23
+    background-image: url(../assets/curso/tema4/img5.png)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-position: center
+
+.fig
+  &-p1
+    position: relative
+    bottom: 15px;
