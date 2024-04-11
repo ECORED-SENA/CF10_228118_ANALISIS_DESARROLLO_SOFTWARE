@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/CF10_228128_ASEGURAMIENTO_CALIDAD_SOFTWARE/](https://ecored-sena.github.io/CF10_228128_ASEGURAMIENTO_CALIDAD_SOFTWARE/)
+[https://ecored-sena.github.io/CF10_228118_ANALISIS_DESARROLLO_SOFTWARE/](https://ecored-sena.github.io/CF10_228118_ANALISIS_DESARROLLO_SOFTWARE/)
 
 #
 
