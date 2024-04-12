@@ -2,14 +2,14 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Conceptos sobre patrones de diseño
-    p El uso de patrones de diseño en el ámbito de la industria de software implica el conocimiento y la aplicación de una serie de criterios que aportan calidad al proceso mismo y efectividad del producto logrado. En ese mismo sentido, se favorece la estandarización del código fuente de determinada aplicación, lo cual facilita su monitoreo y mantenimiento.
-    p.mb-5 Los patrones de diseño tienen las siguientes características:
+    p(data-aos="fade-right") El uso de patrones de diseño en el ámbito de la industria de #[i software] implica el conocimiento y la aplicación de una serie de criterios que aportan calidad al proceso mismo y efectividad del producto logrado. En ese mismo sentido, se favorece la estandarización del código fuente de determinada aplicación, lo cual facilita su monitoreo y mantenimiento.
+    p.mb-5(data-aos="fade-right") Los patrones de diseño tienen las siguientes características:
     .row.align-items-center.mb-5
-      .col-lg-9.order-2.order-lg-1
+      .col-lg-9.order-2.order-lg-1(data-aos="fade-right")
         .row
           .col-12.bg-c4
             .p-2
@@ -34,7 +34,7 @@
                   figure
                     img(src='@/assets/curso/tema1/img3.svg', style="width:70px" alt='').m-auto
                 .col
-                  p.mb-0 #[b 3.] Son frecuentemente utilizados ya que se construyen a partir de la experiencia acumulada en la industria del desarrollo de software.
+                  p.mb-0 #[b 3.] Son frecuentemente utilizados ya que se construyen a partir de la experiencia acumulada en la industria del desarrollo de #[i software].
           .col-12.bg-c5
             .p-2
               .row.align-items-center
@@ -59,11 +59,11 @@
                     img(src='@/assets/curso/tema1/img6.svg', style="width:70px" alt='').m-auto
                 .col
                   p.mb-0 #[b 6.] Los patrones generalmente hacen referencia al uso de interfaces, clases y objetos que deben ser ajustados de acuerdo con la solución concreta a desarrollar.
-      .col-lg-3.mb-4.mb-lg-0.order-1.order-lg-2
+      .col-lg-3.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img1.png', style="width:300px" alt='').m-auto
-    p.mb-4 Para comprender mejor la organización y aplicación de los patrones de diseño en el desarrollo de software, es importante reconocer su clasificación. Estos suelen dividirse en tres grandes grupos, según su finalidad:
-    .row
+    p.mb-4(data-aos="fade-down") Para comprender mejor la organización y aplicación de los patrones de diseño en el desarrollo de #[i software], es importante reconocer su clasificación. Estos suelen dividirse en tres grandes grupos, según su finalidad:
+    .row(data-aos="fade-left")
       .col-lg.bg-c8.m-2
         .p-4
           .row.align-items-center

@@ -136,32 +136,76 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Conceptos sobre patrones de diseño',
+      referencia:
+        'Leiva, A. (2020). <i>Patrones de diseño software: Repaso completo en 10 minutos</i>.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=6BHOeDL8vls&feature=youtu.be',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Diagrama de despliegue',
+      referencia:
+        'Nicosiored. (2018). <i>Diagrama de Despliegue - 22 - Tutorial UML en español</i>.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=NSB0ATJUavA&feature=youtu.be',
+    },
+    {
+      tema: 'Diagrama de componentes',
+      referencia:
+        'Nicosiored. (2018). <i>Diagrama de Componentes I - 20- Tutorial UML en español</i>.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=oOycG_n1ARs&feature=youtu.be',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Patrones GOF',
+      significado:
+        'los patrones GOF, se trata de los patrones de diseño y se denominan de esa manera por el libro <i>Desing Patterns elements of reusable software</i>, de cuatro autores que descubrieron la manera fundamental de adentrarse en el mundo de la programación. GOF es la sigla de <i>“The Gang of four”</i>, que significa La pandilla de los cuatro.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: '<em>Software</em>',
+      significado:
+        'se trata del compendio de rutinas o de programas que favorecen a los dispositivos el cumplimiento y ejecución de determinadas tareas, funciones o aplicaciones.',
+    },
+    {
+      termino: 'Lenguaje Unificado de Modelado (UML)',
+      significado:
+        'relaciona un conjunto de diagramas estandarizados para la representación de sistemas de información desde diferentes tipos de vista.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Creately (2021, Enero 15). <i>La Guía Fácil de los Diagramas de Despliegue UML</i>. [Web log post]. Blogspot. ',
+      link:
+        'https://creately.com/blog/es/diagramas/tutorial-de-diagrama-de-despliegue/',
+    },
+    {
+      referencia:
+        'DiagramasUML (2013, Diciembre 8). <i>¿Qué es UML? ¿Qué diagramas componen UML?</i> [Web log post]. Blogspot. ',
+      link: 'https://diagramasuml.com/componentes/',
+    },
+    {
+      referencia: 'EcuRed (2021). <i>Patrones Gof</i>. ECURED. ',
+      link: 'https://www.ecured.cu/Patrones_Gof',
+    },
+    {
+      referencia:
+        'Escuela especializada en ingeniería (2021). <i>Diagramas UML estáticos</i>. ITCA-FEPADE. ',
+      link:
+        'https://virtual.itca.edu.sv/Mediadores/ads/222_diagramas_uml_estticos.html',
+    },
+    {
+      referencia:
+        'Gamma, E., Helm, R., Johnson, R., Vlissides, J., & Booch, G. (1994). <i>Design Patterns: Elements of Reusable Object-Oriented Software</i>. Addison-Wesley Professional. ',
       link: '',
+    },
+    {
+      referencia:
+        'Landa, N. (2018). <i>Patrones de Diseño de Software</i>. [Video]. YouTube. ',
+      link:
+        'https://www.youtube.com/playlist?list=PLM-p96nOrGcbqbL_A29b0z3KUXdq2_fpn ',
     },
   ],
   creditos: [
@@ -184,8 +228,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Jonathan Guerrero Astaiza',
+          cargo: 'Experto Temático',
+          centro:
+            'Centro de teleinformática y producción industrial - Regional Cauca',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora Instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -194,25 +244,25 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Juan Daniel Polanco Muñoz',
           cargo: 'Diseñador de Contenidos Digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Jhon Jairo Urueta Alvarez',
           cargo: 'Desarrollador Fullstack',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
+          nombre: 'Edgar Mauricio Cortés García',
           cargo: 'Actividad Didáctica',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
+        //{
+        //  nombre: 'Nombre',
+        //  cargo: 'Animador y Producción audiovisual',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
       ],
     },
     {
