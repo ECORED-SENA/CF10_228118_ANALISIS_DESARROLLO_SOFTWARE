@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 4
       h1 Patrones estructurales
-    p.mb-4(data-aos="fade-right") Los patrones estructurales proveen una orientación relacionada a la forma de definir los componentes de los objetos. Dentro de los patrones estructurales se encuentran:
+    p.mb-4(data-aos="fade-right") Los patrones estructurales proveen una orientación relacionada con la forma de definir los componentes de los objetos. Dentro de los patrones estructurales se encuentran:
     .row.align-items-center
       .col-lg-9.order-2.order-lg-1(data-aos="fade-right")
         .row
@@ -18,7 +18,7 @@
                     img(src='@/assets/curso/tema4/img1.svg', style="width:70px" alt='').m-auto
                 .col
                   p.mb-0 #[b El patrón Fachada]
-                  p.mb-0 Utilizado cuando el sistema está compuesto por varios subsitemas.
+                  p.mb-0 Utilizado cuando el sistema está compuesto por varios subsistemas.
           .col-12.bg-c7
             .p-2
               .row.align-items-center
@@ -116,7 +116,7 @@
                 li.d-flex
                   i.fas.fa-code(style="color: #1682FB")
                   |
-                  p.mb-0 #[b Subsistema de inventario:] verifica si hay productos en stock.
+                  p.mb-0 #[b Subsistema de inventario:] verifica si hay productos en #[i stock].
                 li.d-flex
                   i.fas.fa-code(style="color: #1682FB")
                   |
@@ -155,6 +155,7 @@
                       p.mb-0          System.out.println("Pago rechazado");
                       p.mb-0          return false;
                       p.mb-0      }
+                      p.mb-0    }
                       p.mb-0  }
             .col-lg-7.mb-5(data-aos="fade-right")
               p #[b Clase que representa el subsistema de inventario]
@@ -246,7 +247,7 @@
       h2 4.2 #[i Delegate]
     .row.align-items-center.mb-5
       .col-lg-8.order-2.order-lg-1(data-aos="fade-right")
-        p El patrón delegate se usa cuando se quiere reutilizar y extender funcionalidades de una clase sin hacer uso de la herencia. Este patrón permite de cierta forma implementar algo similar a la herencia múltiple que no es admitido por algunos lenguajes de programación, pero adicionalmente permite tener un control más detallado sobre este proceso, ya que se puede ocultar parte de los elementos heredados o, incluso, compartir elementos que no son posibles de heredar bajo el mecanismo de herencia tradicional.
+        p El patrón #[i delegate] se usa cuando se quiere reutilizar y extender funcionalidades de una clase sin hacer uso de la herencia. Este patrón permite de cierta forma implementar algo similar a la herencia múltiple que no es admitido por algunos lenguajes de programación, pero adicionalmente permite tener un control más detallado sobre este proceso, ya que se puede ocultar parte de los elementos heredados o, incluso, compartir elementos que no son posibles de heredar bajo el mecanismo de herencia tradicional.
         .row.mb-3
           .col-12.bg-c22
             .p-3
@@ -256,7 +257,7 @@
             figure
               img(src='@/assets/curso/tema4/img12.svg', style="width:70px" alt='').m-auto
           .col
-            p.mb-0 El siguiente ejemplo se muestra la implementación del patrón de diseño en cuestión, donde se aplica el patrón Delegate para #[b integrar en una clase concreta funcionalidades definidas en otras clases a través del uso de interfaces].
+            p.mb-0 El siguiente ejemplo se muestra la implementación del patrón de diseño en cuestión, donde se aplica el patrón #[i Delegate] para #[b integrar en una clase concreta funcionalidades definidas en otras clases a través del uso de interfaces].
       .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema4/img6.png', style="width:370px" alt='').m-auto
@@ -330,7 +331,7 @@
                       p.mb-0        disenador.disenar();
                       p.mb-0    }   
                       p.mb-0 }
-            .col-lg-7.mb-5(data-aos="fade-left")
+            .col-lg-8.mb-5(data-aos="fade-left")
               p #[b 4. Instanciación de la clase principal con clases concretasrserán reutilizados]
               .row
                 .col-12.bg-c20

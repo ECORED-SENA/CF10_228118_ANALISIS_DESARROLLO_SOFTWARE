@@ -16,7 +16,7 @@
     p.mb-5(data-aos="fade-right") Le invitamos a revisar los aspectos más característicos e importantes de los diagramas de componentes, explorando el recurso que se muestra a continuación:
     figure(data-aos="fade-left")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/sp8APOAyTfk?si=qdOrCYPpst7NdQix" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 </template>
 

@@ -156,9 +156,9 @@
               .titulo-sexto.color-acento-contenido(data-aos="fade-down")
                 p.mb-0 #[b Figura 1.] Ejemplo para el patrón comportamental iterador
               figure.d-none.d-lg-block(data-aos="fade-right")
-                  img(src='@/assets/curso/tema2/img7.svg', style="width:1050px" alt='').m-auto
+                  img(src='@/assets/curso/tema2/img7.svg', style="width:1050px" alt='Los figura representa la relación entre interfaces y clases que permiten la iteración sobre colecciones, donde Colección se hace enumerable a través de Enumerator, facilitado por IEnumerable.').m-auto
               figure.d-block.d-lg-none(data-aos="fade-left")
-                img(src='@/assets/curso/tema2/img7m.svg', style="width:300px" alt='').m-auto
+                img(src='@/assets/curso/tema2/img7m.svg', style="width:300px" alt='Los figura representa la relación entre interfaces y clases que permiten la iteración sobre colecciones, donde Colección se hace enumerable a través de Enumerator, facilitado por IEnumerable.').m-auto
 
 </template>
 

@@ -55,7 +55,7 @@ export default {
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Patrones creacionales',
+        titulo: 'Patrones estructurales',
         desarrolloContenidos: true,
         subMenu: [
           {

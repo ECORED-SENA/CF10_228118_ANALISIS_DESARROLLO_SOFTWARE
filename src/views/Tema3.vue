@@ -23,7 +23,7 @@
                 img(src='@/assets/curso/tema3/img2.png', style="width:380px" alt='').m-auto
           figure(data-aos="fade-right")
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/_KZkbL0MMbQ?si=vChhrWQ0L56F8jx5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 </template>
 
