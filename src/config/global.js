@@ -120,7 +120,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/228118_CF10_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -192,12 +192,6 @@ export default {
     },
     {
       referencia:
-        'Escuela especializada en ingeniería (2021). <i>Diagramas UML estáticos</i>. ITCA-FEPADE. ',
-      link:
-        'https://virtual.itca.edu.sv/Mediadores/ads/222_diagramas_uml_estticos.html',
-    },
-    {
-      referencia:
         'Gamma, E., Helm, R., Johnson, R., Vlissides, J., & Booch, G. (1994). <i>Design Patterns: Elements of Reusable Object-Oriented Software</i>. Addison-Wesley Professional. ',
       link: '',
     },
@@ -234,7 +228,7 @@ export default {
             'Centro de teleinformática y producción industrial - Regional Cauca',
         },
         {
-          nombre: 'Paola Alexandra Moya',
+          nombre: 'Paola Alexandra Moya Peralta',
           cargo: 'Evaluadora Instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
@@ -258,11 +252,11 @@ export default {
           cargo: 'Actividad Didáctica',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
-        //{
-        //  nombre: 'Nombre',
-        //  cargo: 'Animador y Producción audiovisual',
-        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        //},
+        {
+          nombre: 'Daniela Muñoz Bedoya',
+          cargo: 'Animador y Producción audiovisual',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
       ],
     },
     {
@@ -273,11 +267,11 @@ export default {
           cargo: 'Validador de Recursos Educativos Digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
-        {
+        /* {
           nombre: 'Jaime Hernán Tejada Llano',
           cargo: 'Validador de Recursos Educativos Digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
+        }, */
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',

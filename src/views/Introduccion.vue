@@ -24,7 +24,7 @@
                         figure
                           img(src='@/assets/curso/intro/img1.svg', style="width:70px" alt='').m-auto
                       .col
-                        p.mb-0 Los patrones de diseño del #[i software] representa un conjunto de formas estandarizadas para resolver un problema particular, los cuales surgen a partir de la experiencia desarrollada en la industria.
+                        p.mb-0 Los patrones de diseño del #[i software] representan un conjunto de formas estandarizadas para resolver un problema particular, los cuales surgen a partir de la experiencia desarrollada en la industria.
           p.mb-4(data-aos="fade-right") Un patrón de diseño debe estar estructurado por cuatro componentes:
           .row.align-items-center.mb-5
             .col-lg-8.order-2.order-lg-1(data-aos="fade-right")

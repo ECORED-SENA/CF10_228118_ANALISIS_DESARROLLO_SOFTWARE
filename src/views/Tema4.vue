@@ -40,7 +40,7 @@
         .px-5
           .row.align-items-center.mb-5
             .col-lg-10.order-2.order-lg-1(data-aos="fade-right")
-              p El patrón fachado se emplea cuando un sistema está conformado por múltiples subsistemas, lo que complica la gestión de las interacciones que el cliente debe realizar con cada uno de ellos. Este patrón permite generar al cliente una vista de alto nivel que simplifica el control y el envío de mensajes a los subsistemas, ocultando los detalles relacionados con la gestión de las clases e instancias.
+              p El patrón fachada se emplea cuando un sistema está conformado por múltiples subsistemas, lo que complica la gestión de las interacciones que el cliente debe realizar con cada uno de ellos. Este patrón permite generar al cliente una vista de alto nivel que simplifica el control y el envío de mensajes a los subsistemas, ocultando los detalles relacionados con la gestión de las clases e instancias.
               p.mb-0 Existen diferentes variaciones del patrón fachada:
             .col-lg-2.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
               figure
