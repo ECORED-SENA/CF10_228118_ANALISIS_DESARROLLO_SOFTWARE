@@ -254,7 +254,7 @@ export default {
         },
         {
           nombre: 'Daniela Muñoz Bedoya',
-          cargo: 'Animador y Producción audiovisual',
+          cargo: 'Animador y Producción Audiovisual',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -274,12 +274,12 @@ export default {
         }, */
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          cargo: 'Evaluador Para Contenidos Inclusivos y Accesibles',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Margarita Marcela Medrano Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          cargo: 'Evaluador Para Contenidos Inclusivos y Accesibles',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],

@@ -36,7 +36,7 @@
           .col-12.bg-c27
             .p-4
               p #[b Artefactos]
-              p.mb-0 Representan elementos concretos generados en el proceso de desarrollo, por ejemplo bibliotecas, archivos, entre otros.
+              p.mb-0 Representan elementos concretos generados en el proceso de desarrollo, por ejemplo, bibliotecas, archivos, entre otros.
       .col-md-8.col-lg.m-2
         .row
           .col-12.bg-c26
@@ -57,7 +57,7 @@
           .col-12.bg-c27
             .p-4
               p #[b Dispositivos]
-              p.mb-0 Es un tipo especial de nodo que representa un recurso computacional del sistema, por ejemplo un servidor.
+              p.mb-0 Es un tipo especial de nodo que representa un recurso computacional del sistema, por ejemplo, un servidor.
       .col-md-8.col-lg-4.m-2
         .row
           .col-12.bg-c26

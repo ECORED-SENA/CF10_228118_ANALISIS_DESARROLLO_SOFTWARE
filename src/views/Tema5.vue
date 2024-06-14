@@ -25,7 +25,7 @@
         figure
           img(src='@/assets/curso/tema5/img1.png', style="width:350px" alt='').m-auto
       .col-lg-8(data-aos="fade-left")
-        p Entre los diagramas de Lenguaje Unificado de Modelado (UML) que se utilizan para representar la vista estática del sistema encontramos (ITCA, 2021):
+        p Entre los diagramas de Lenguaje Unificado de Modelado (UML) que se utilizan para representar la vista estática del sistema, encontramos (ITCA, 2021):
         ul.lista-ul.mb-0
           li.d-flex
             i.fas.fa-code(style="color: #1682FB")

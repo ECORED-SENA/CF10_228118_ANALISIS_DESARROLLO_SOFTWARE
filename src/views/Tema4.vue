@@ -124,7 +124,7 @@
             .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/tema4/img3.png', style="width:270px" alt='').m-auto
-    p.mb-5(data-aos="fade-right") Para disminuir la complejidad, de la cual no debería ocuparse el cliente, se creará una fachada que encapsula las acciones de todos los subsistemas involucrados y proveer una interfaz simple con la que el cliente podrá interactuar más fácilmente. Como se presenta a continuación:
+    p.mb-5(data-aos="fade-right") Para disminuir la complejidad, de la cual no debería ocuparse el cliente, se creará una fachada que encapsula las acciones de todos los subsistemas involucrados y proveer una interfaz simple con la que el cliente podrá interactuar más fácilmente, como se presenta a continuación:
     .row.bg-c19
       .col-12
         .px-5
@@ -251,13 +251,13 @@
         .row.mb-3
           .col-12.bg-c22
             .p-3
-              p.mb-0 #[b Este patrón busca evitar la concentración de todas las responsabilidades en una única instancia, optando en cambio por delegar las tareas en otras instancias especializadas en resolver dichas funciones.]
+              p.mb-0 #[b Este patrón busca evitar la concentración de todas las responsabilidades en una única instancia, optando en cambio, por delegar las tareas en otras instancias especializadas en resolver dichas funciones.]
         .row.align-items-center
           .col-auto.pe-0
             figure
               img(src='@/assets/curso/tema4/img12.svg', style="width:70px" alt='').m-auto
           .col
-            p.mb-0 El siguiente ejemplo se muestra la implementación del patrón de diseño en cuestión, donde se aplica el patrón #[i Delegate] para #[b integrar en una clase concreta funcionalidades definidas en otras clases a través del uso de interfaces].
+            p.mb-0 En el siguiente ejemplo se muestra la implementación del patrón de diseño en cuestión, donde se aplica el patrón #[i Delegate] para #[b integrar en una clase concreta funcionalidades definidas en otras clases a través del uso de interfaces].
       .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema4/img6.png', style="width:370px" alt='').m-auto
@@ -348,7 +348,7 @@
                       p.mb-0         objEmpleado.disenar();
                       p.mb-0     }
                       p.mb-0 }
-    p(data-aos="fade-right") Cualquier nueva clase concreta que implemente las interfaces originales podrá ser utilizada por la clase Empleado para su reutilización, simplemente pasando la instancia correspondiente que implementa la nueva lógica al parámetro del constructor.
+    p(data-aos="fade-right") Cualquier nueva clase concreta que implemente las interfaces originales podrán ser utilizadas por la clase Empleado para su reutilización, simplemente pasando la instancia correspondiente que implementa la nueva lógica al parámetro del constructor.
 
 </template>
 
