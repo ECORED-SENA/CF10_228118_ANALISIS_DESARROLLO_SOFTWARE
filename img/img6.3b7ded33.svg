@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1240" height="217" viewBox="0 0 1240 217">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_401063" data-name="Rectángulo 401063" width="173" height="199.204" transform="translate(1292 5667)" fill="#12263f" opacity="0.4"/>
+    </clipPath>
+    <filter id="Elipse_11447" x="1009.197" y="-42.241" width="444.421" height="443.251" filterUnits="userSpaceOnUse">
+      <feOffset dx="9.39" dy="9.39" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25.04" result="blur"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path-2">
+      <rect id="Rectángulo_401066" data-name="Rectángulo 401066" width="173" height="196" transform="translate(1292 5776)" fill="#12263f" opacity="0.4"/>
+    </clipPath>
+    <filter id="Elipse_11448" x="-194.839" y="-38.659" width="444.421" height="442.928" filterUnits="userSpaceOnUse">
+      <feOffset dx="9.39" dy="9.39" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25.04" result="blur-2"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_1099257" data-name="Grupo 1099257" transform="translate(-180 -2615)">
+    <rect id="Rectángulo_401061" data-name="Rectángulo 401061" width="1240" height="217" rx="10" transform="translate(180 2615)" fill="#beb4d0"/>
+    <g id="Enmascarar_grupo_1098653" data-name="Enmascarar grupo 1098653" transform="translate(-45 -3034.204)" opacity="0.2" clip-path="url(#clip-path)">
+      <g transform="matrix(1, 0, 0, 1, 225, 5649.2)" filter="url(#Elipse_11447)">
+        <ellipse id="Elipse_11447-2" data-name="Elipse 11447" cx="147.091" cy="146.505" rx="147.091" ry="146.505" transform="translate(1074.93 23.49)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Enmascarar_grupo_1098654" data-name="Enmascarar grupo 1098654" transform="translate(1645 8608) rotate(180)" opacity="0.2" clip-path="url(#clip-path-2)">
+      <g transform="matrix(-1, 0, 0, -1, 1465, 5993)" filter="url(#Elipse_11448)">
+        <ellipse id="Elipse_11448-2" data-name="Elipse 11448" cx="147.091" cy="146.344" rx="147.091" ry="146.344" transform="translate(165.07 319.76) rotate(180)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
