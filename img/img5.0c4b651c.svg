@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="106.136" height="106.136" viewBox="0 0 106.136 106.136">
+  <defs>
+    <filter id="Elipse_9685" x="0" y="0" width="106.136" height="106.136" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_1099272" data-name="Grupo 1099272" transform="translate(-737.932 -9747.46)">
+    <circle id="Elipse_11310" data-name="Elipse 11310" cx="50" cy="50" r="50" transform="translate(741 9747.527)" fill="#fff"/>
+    <g id="Grupo_1098210" data-name="Grupo 1098210" transform="translate(746.932 9753.46)">
+      <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Elipse_9685)">
+        <g id="Elipse_9685-2" data-name="Elipse 9685" transform="translate(9 6)" fill="#f2e5fd" stroke="#a854f3" stroke-width="5">
+          <circle cx="44.068" cy="44.068" r="44.068" stroke="none"/>
+          <circle cx="44.068" cy="44.068" r="41.568" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <g id="Grupo_1099295" data-name="Grupo 1099295" transform="translate(764.325 9774.083)">
+      <g id="Grupo_1099295-2" data-name="Grupo 1099295" transform="translate(0 0)">
+        <path id="Trazado_874114" data-name="Trazado 874114" d="M51.787,31H1.563A1.563,1.563,0,0,0,0,32.563V76.327A1.563,1.563,0,0,0,1.563,77.89H51.787a1.563,1.563,0,0,0,1.563-1.563V32.563A1.563,1.563,0,0,0,51.787,31ZM50.224,74.764H3.126V40.378h47.1Zm0-37.512H3.126V34.126h47.1ZM10.941,56.008H42.409a1.563,1.563,0,0,0,1.563-1.563V48.193a1.563,1.563,0,0,0-1.563-1.563H10.941a1.563,1.563,0,0,0-1.563,1.563v6.252A1.563,1.563,0,0,0,10.941,56.008ZM12.5,49.756H40.846v3.126H12.5Zm-1.563,12.5H42.409a1.563,1.563,0,0,0,0-3.126H10.941a1.563,1.563,0,1,0,0,3.126Zm0,6.252H42.409a1.563,1.563,0,0,0,0-3.126H10.941a1.563,1.563,0,1,0,0,3.126Z" transform="translate(0 -31)" fill="#a854f3"/>
+      </g>
+    </g>
+  </g>
+</svg>
